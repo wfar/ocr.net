@@ -8,6 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Resources\CountOfMonteCristo.png" />
+    <EmbeddedResource Include="Resources\CountOfMonteCristo.txt" />
+    <EmbeddedResource Include="Resources\PowerSupply.png" />
+    <EmbeddedResource Include="Resources\PowerSupply.txt" />
+    <EmbeddedResource Include="Resources\TaleOfTwoCities.png" />
+    <EmbeddedResource Include="Resources\TaleOfTwoCities.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
     <PackageReference Include="NUnit" Version="3.13.2" />
     <PackageReference Include="NUnit3TestAdapter" Version="4.0.0" />

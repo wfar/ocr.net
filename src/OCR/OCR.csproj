@@ -12,18 +12,4 @@
     <PackageReference Include="Tesseract.Drawing" Version="4.1.1" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Content Update="C:\Users\wahhaj.farooq\.nuget\packages\tesseract.data.english\4.0.0\build\tessdata\eng.traineddata">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Remove="C:\Users\wahhaj.farooq\.nuget\packages\tesseract.data.english\4.0.0\build\Tesseract.Data.English.targets" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Remove="C:\Users\wahhaj.farooq\.nuget\packages\tesseract.data.english\4.0.0\build\Tesseract.Data.English.targets" />
-  </ItemGroup>
-
 </Project>
